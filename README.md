@@ -1,4 +1,4 @@
-# 🛡️ Real-Time Harmful Link Detector – Chrome Extension
+# True Link is a lightweight and privacy-focused Chrome extension that helps users instantly verify the safety of websites and files before visiting or downloading them. Built with security and simplicity in mind, it integrates public threat intelligence APIs to detect phishing, malware, suspicious redirects, and malicious files in real time.
 
 A **Chrome Extension + MERN Stack** project that helps users stay safe online by detecting and alerting them about **potentially harmful or suspicious links** in real-time.
 
