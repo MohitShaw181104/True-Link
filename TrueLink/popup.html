@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safe Link Detector</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🛡️ Safe Link Detector</h1>
+        </div>
+        
+        <div class="input-section">
+            <input type="url" id="urlInput" placeholder="Enter URL to check..." />
+            <button id="checkBtn">Check Link</button>
+        </div>
+        
+        <div id="result" class="result hidden">
+            <div id="status" class="status"></div>
+            <div id="details" class="details"></div>
+            <div id="recommendation" class="recommendation"></div>
+        </div>
+        
+        <div class="settings">
+            <button id="settingsBtn">⚙️ Settings</button>
+            <button id="scanPageBtn">🔍 Scan This Page</button>
+        </div>
+        
+        <div id="settingsPanel" class="settings-panel hidden">
+            <h3>Settings</h3>
+            <label>
+                <input type="text" id="apiKeyInput" placeholder="VirusTotal API Key" />
+                <small>Enter your VirusTotal API key</small>
+            </label>
+            <button id="saveSettings">Save</button>
+        </div>
+        
+        <div class="footer">
+            <small>Click on any link on a webpage to check it instantly!</small>
+        </div>
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+</html>
